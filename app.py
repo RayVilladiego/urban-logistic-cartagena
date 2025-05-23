@@ -65,4 +65,5 @@ add_login_callback(app)
 add_predict_callback(app)
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
+
